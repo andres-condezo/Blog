@@ -1,0 +1,20 @@
+Started GET "/" for 127.0.0.1 at 2022-06-02 14:53:12 -0500
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 344)
+  Rendered layout layouts/application.html.erb (Duration: 100.3ms | Allocations: 76105)
+Completed 200 OK in 104ms (Views: 101.4ms | ActiveRecord: 0.0ms | Allocations: 79401)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2022-06-02 14:53:23 -0500
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/adrsp/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/adrsp/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/adrsp/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/actionpack-7.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [47 times] (Duration: 5.9ms | Allocations: 7952)
+  Rendered /home/adrsp/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/actionpack-7.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 2.2ms | Allocations: 1309)
+  Rendered /home/adrsp/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 10.3ms | Allocations: 14708)
+  Rendered layout /home/adrsp/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/layouts/application.html.erb (Duration: 10.5ms | Allocations: 15045)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 16052)
+
+
